@@ -135,7 +135,7 @@ AC_ARG_ENABLE([vte-2.91],
 		[enable_vte_291=yes])
         
 if test "x$enable_vte_291" = "xyes"; then
-    vte_package="vte-2.91"
+    vte_package="vte-2.91 >= 0.52"
     AC_DEFINE([VTE_291], [1], [VTE Version])
 else
     vte_package="vte-2.90"

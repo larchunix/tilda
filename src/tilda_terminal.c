@@ -686,6 +686,9 @@ static gint tilda_term_config_defaults (tilda_term *tt)
 
     vte_terminal_set_colors_rgba (VTE_TERMINAL(tt->vte_term), &fg, &bg, current_palette, TERMINAL_PALETTE_SIZE);
 
+    /** Bold is Bright (requires VTE >= 0.52 released in March 2018) **/
+    vte_terminal_set_bold_is_bright (VTE_TERMINAL(tt->vte_term), config_getbool ("bold_is_bright"));
+
     /** Bells **/
     vte_terminal_set_audible_bell (VTE_TERMINAL(tt->vte_term), config_getbool ("bell"));
 #ifdef VTE_290

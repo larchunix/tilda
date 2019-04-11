@@ -558,6 +558,18 @@ msgstr ""
 msgid "Color palette:"
 msgstr "Palette de couleurs :"
 
+#: src/tilda.ui:2649
+msgid "Show bold text in bright colors"
+msgstr "Afficher le texte en gras avec des couleurs claires"
+
+#: src/tilda.ui:2653
+msgid ""
+"If true, setting bold on the first 8 colors also switches to their bright "
+"variants."
+msgstr ""
+"Si défini à vrai (« true »), le réglage en gras sur les 8 premières couleurs "
+"passe également à leurs variantes brillantes."
+
 #: src/tilda.ui:2653
 msgid "<b>Palette</b>"
 msgstr "<b>Palette</b>"
