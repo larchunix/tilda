@@ -150,7 +150,7 @@ AM_GNU_GETTEXT([external])
 # Checks for libraries.
 PKG_PROG_PKG_CONFIG
 PKG_CHECK_MODULES([GTK], [gtk+-3.0 >= 3.10.0])
-PKG_CHECK_MODULES([VTE], [vte-2.91 >= 0.40])
+PKG_CHECK_MODULES([VTE], [vte-2.91 >= 0.52])
 PKG_CHECK_MODULES([LIBCONFUSE], [libconfuse])
 PKG_CHECK_MODULES([X11], [x11])
 
